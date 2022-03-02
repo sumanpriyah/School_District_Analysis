@@ -31,7 +31,7 @@ python- 3.9.7 , conda 4.10.3, jupyter 1.0.0
 ## Results:
 ### District Summary
 The approx passing percentage for Maths-75%, reading-86% and overall is 65%. The District summary did not change much after replacing 9th grade maths and reading score with "nan"
- !["District summary before and after 9th grade scores replaced with nan](https://github.com/sumanpriyah/School_District_Analysis/blob/main/Images/Results/District_summary.png)
+ !["District summary before and after 9th grade scores replaced with nan"](https://github.com/sumanpriyah/School_District_Analysis/blob/main/Images/Results/District_summary.png)
 
 ### School Summary
 The school summary did impact for Thomas High School after replacing 9th grade math and reading score with "nan". 
@@ -44,10 +44,13 @@ The overall passing percentage went from 90.95 to 65.08
 After replacing the math and reading score with "nan" for 9th grade the overall performance of school went down if the 9th grade was included in overall performance.
 Thomas high school does not comes in the top 5 schools if calculations are done with 9th grade.Where the performance is calculated only based on 10th to 12th grade then the math, reading and overall passing percentage is good as compare to including 9th grade scores.
 
-![Thomas High School performance](https://github.com/sumanpriyah/School_District_Analysis/blob/main/Images/Results/Thomas_high_school_performance.png)
+!["Thomas High School performance"](https://github.com/sumanpriyah/School_District_Analysis/blob/main/Images/Results/Thomas_high_school_performance.png)
 
 ### Replacing the ninth-grade scores affect the following:
-Math and reading scores by grade - For 9th grade math and reading scores are "nan"
+
+Math and reading scores by grade - For 9th grade math and reading scores are displaying as "nan" 
+
+!["Scores as nan"](https://github.com/sumanpriyah/School_District_Analysis/blob/main/Images/replacing%209th%20grade%20scores/Average%20score%20by%20grade%20per%20school.png)
 
 Scores by school spending - The score went down as per school spending 
 
@@ -55,6 +58,7 @@ Scores by school size- The score went down as per school size
 
 Scores by school type- The overall score went down as per school type. 
 
+!["Schhol Summary after replacing 9th grade scores"](https://github.com/sumanpriyah/School_District_Analysis/blob/main/Images/replacing%209th%20grade%20scores/school_summary_after.png)
 
 ## Summary:
 Initially analysis was done on the data provided but later analysis was done by updating 9th grade math and reading score replaced with "nan" due to some academic dishonesty.
