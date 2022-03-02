@@ -68,7 +68,8 @@ of 53.51
 Overall lowest performing schools all are District schools - Bailey High School, Figueroa High School,Ford High School,Hernandez High School,Huang High School,Johnson High School,
 Rodriguez High School even they are getting per school budget better than charter schools. All District schools are large with studnet range from 2000 to 5000 and could be reason 
 for overall low performance. The Charter schools are doing better seems like school size is medium or smaller
+!["School performance as per size"](https://github.com/sumanpriyah/School_District_Analysis/blob/main/Images/Deliverables/school_performance_school_size.png)
 
-
+!["School performance as per school type"](https://github.com/sumanpriyah/School_District_Analysis/blob/main/Images/Deliverables/school_performance_school_type.png)
 
 
