@@ -10,34 +10,49 @@ the upcoming school year.
 1) A high-level snapshot of the district's key metrics, presented in a table format
 2) An overview of the key metrics for each school, presented in a table format
 3) Tables presenting each of the following metrics:
+
 	-Top 5 and bottom 5 performing schools, based on the overall passing rate
-	-The average math score received by students in each grade level at each school
+	
+	-The average math score received by students in each grade level at each school	
+	
 	-The average reading score received by students in each grade level at each school
-	-School performance based on the budget per student
+	
+	-School performance based on the budget per student	
+	
 	-School performance based on the school size 
+	
 	-School performance based on the type of school
 	
-### software used
+
+
+### Software Used
 python- 3.9.7 , conda 4.10.3, jupyter 1.0.0
 
 ## Results:
 ### District Summary
 The approx passing percentage for Maths-75%, reading-86% and overall is 65%. The District summary did not change much after replacing 9th grade maths and reading score with "nan"
+ !["District summary before and after 9th grade scores replaced with nan](https://github.com/sumanpriyah/School_District_Analysis/blob/main/Images/Results/District_summary.png)
 
-### school summary
+### School Summary
 The school summary did impact for Thomas High School after replacing 9th grade math and reading score with "nan". 
 The math passing percentage went from 93.27 to 66.91
 The reading passing percentage went from 97.31 to 69.66
 The overall passing percentage went from 90.95 to 65.08
+!["School summary before and after 9th grade scores replaced with nan](https://github.com/sumanpriyah/School_District_Analysis/blob/main/Images/Results/School_Summary.png)
 
 ### Thomas High School Performance
 After replacing the math and reading score with "nan" for 9th grade the overall performance of school went down if the 9th grade was included in overall performance.
 Thomas high school does not comes in the top 5 schools if calculations are done with 9th grade.Where the performance is calculated only based on 10th to 12th grade then the math, reading and overall passing percentage is good as compare to including 9th grade scores.
 
-### How does replacing the ninth-grade scores affect the following:
+![Thomas High School performance](https://github.com/sumanpriyah/School_District_Analysis/blob/main/Images/Results/Thomas_high_school_performance.png)
+
+### Replacing the ninth-grade scores affect the following:
 Math and reading scores by grade - For 9th grade math and reading scores are "nan"
+
 Scores by school spending - The score went down as per school spending 
+
 Scores by school size- The score went down as per school size
+
 Scores by school type- The overall score went down as per school type. 
 
 
